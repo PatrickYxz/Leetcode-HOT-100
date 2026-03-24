@@ -2,7 +2,7 @@
 
 > 记录刷题过程中的思路与收获，持续更新中。
 
-**进度：** 0 / 100
+**进度：** 7 / 100
 
 ---
 
@@ -94,19 +94,19 @@
 
 | # | 题目 | 难度 | 思路 | 完成日期 |
 |---|------|------|------|----------|
-| 2 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | 🟡 中等 | - | - |
+| 2 | [两数相加](https://leetcode.cn/problems/add-two-numbers/) | 🟡 中等 | `while l1 or l2 or carry` 统一处理所有边界情况 | 2026-03-24 |
 | 19 | [删除链表的倒数第 N 个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | 🟡 中等 | - | - |
-| 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | 🟢 简单 | - | - |
+| 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/) | 🟢 简单 | dummy 节点作为假头，逐个比较合并 | 2026-03-24 |
 | 23 | [合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/) | 🔴 困难 | - | - |
 | 24 | [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/) | 🟡 中等 | - | - |
 | 25 | [K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/) | 🔴 困难 | - | - |
 | 138 | [随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/) | 🟡 中等 | - | - |
-| 141 | [环形链表](https://leetcode.cn/problems/linked-list-cycle/) | 🟢 简单 | - | - |
-| 142 | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | 🟡 中等 | - | - |
+| 141 | [环形链表](https://leetcode.cn/problems/linked-list-cycle/) | 🟢 简单 | 快慢指针，有环则必相遇 | 2026-03-24 |
+| 142 | [环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | 🟡 中等 | 快慢指针求环长，双指针相距环长同步走找入口 | 2026-03-24 |
 | 148 | [排序链表](https://leetcode.cn/problems/sort-list/) | 🟡 中等 | - | - |
-| 160 | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | 🟢 简单 | - | - |
-| 206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/) | 🟢 简单 | - | - |
-| 234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | 🟢 简单 | - | - |
+| 160 | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | 🟢 简单 | 双指针各走 a+c+b 和 b+c+a，必在交点或 None 相遇 | 2026-03-24 |
+| 206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/) | 🟢 简单 | prev/cur/next_temp 三指针逐个反转 | 2026-03-24 |
+| 234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | 🟢 简单 | 快慢指针找中点，反转后半段，逐一比较 | 2026-03-24 |
 
 ---
 
